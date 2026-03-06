@@ -11,7 +11,7 @@ npm install kotob
 ```
 ## 使い方
 ```javascript
-const { Kotob } = require('kotob');
+import { Kotob } from "@kotob/client";
 const kotob = new Kotob({
   apiKey: 'YOUR_API_KEY',
 });
