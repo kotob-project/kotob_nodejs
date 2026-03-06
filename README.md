@@ -13,7 +13,7 @@ npm install kotob
 ```javascript
 import { Kotob } from "@kotob/client";
 const kotob = new Kotob({
-  apiKey: 'YOUR_API_KEY',
+  key: 'YOUR_API_KEY',
 });
 
 (async () => {
@@ -29,4 +29,4 @@ const kotob = new Kotob({
 - `targetLang`: 翻訳先の言語コード（例: 'ja', 指定されなかった場合、自動で推測されます）
 
 ## ライセンス
-MIT License
+ISC License
