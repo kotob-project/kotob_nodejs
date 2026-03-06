@@ -7,11 +7,11 @@ API KeyはGoogle Cloud Platformで取得できます。
 - npm v8以上
 ## インストール
 ```bash
-npm install kotob
+npm install @kotob/translate
 ```
 ## 使い方
 ```javascript
-import { Kotob } from "@kotob/client";
+import { Kotob } from "@kotob/translate";
 const kotob = new Kotob({
   key: 'YOUR_API_KEY',
 });
@@ -27,6 +27,9 @@ const kotob = new Kotob({
 - `text`: 翻訳するテキスト
 - `sourceLang`: 元の言語コード（例: 'en', 指定されなかった場合、自動で推測されます）
 - `targetLang`: 翻訳先の言語コード（例: 'ja', 指定されなかった場合、自動で推測されます）
+
+## ドキュメント
+APIの詳細なドキュメントは[こちら](/docs)をご覧ください。
 
 ## ライセンス
 ISC License
