@@ -15,3 +15,5 @@ dist
 *.env*
 *.local
 *.cache
+
+.github
